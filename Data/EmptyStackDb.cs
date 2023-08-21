@@ -10,4 +10,5 @@ public class EmptyStackDb : DbContext
 
     public DbSet<User>? users { get; set; }
     public DbSet<Question>? questions { get; set; }
+    public DbSet<Answer>? answers { get; set; }
 }
